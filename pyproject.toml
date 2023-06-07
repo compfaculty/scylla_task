@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "scylla-task"
+version = "0.1.0"
+description = ""
+authors = ["Alex Granovsky <compfaculty@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "scylla_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyparsing = "^3.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
